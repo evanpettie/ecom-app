@@ -12,6 +12,7 @@ const Header = ({ currentUser }) => (
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
     </Link>
+    <Link className='logo-text' to='/'>Archimedes Apparel</Link>
     <div className='options'>
       <Link className='option' to='/shop'>
         SHOP

@@ -1,3 +1,8 @@
+@font-face { 
+  font-family: 'Rockness'; src: url('../../assets/Rockness.otf'); 
+  font-family: 'Rockness'; src: url('../../assets/Rockness.ttf');
+}
+
 .header {
   height: 70px;
   width: 100%;
@@ -7,8 +12,8 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    width: 80px;
+    padding: 10px 15px;
   }
 
   .options {
@@ -29,4 +34,11 @@ svg {
   height: 55px;
   width: 75px;
   opacity: 0.8;
+}
+
+.logo-text {
+  font-family: 'Rockness';
+  font-size: 3em;
+  width: 60%;
+  padding: 10px;
 }

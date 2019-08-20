@@ -11,34 +11,35 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-          id: 1,
-          linkUrl: 'hats'
-        },
-        {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-          id: 2,
-          linkUrl: ''
-        },
-        {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
-          id: 3,
-          linkUrl: ''
-        },
-        {
           title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          imageUrl: 'https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
           size: 'large',
-          id: 4,
+          id: 1,
           linkUrl: ''
         },
         {
           title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          imageUrl: 'https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           size: 'large',
+          id: 2,
+          linkUrl: ''
+        },
+        {
+          title: 'swimwear',
+          imageUrl: 'https://images.pexels.com/photos/1797375/pexels-photo-1797375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+          size: 'large',
+          id: 3,
+          linkUrl: ''
+        },
+        {
+          title: 'outwear',
+          imageUrl: 'https://images.pexels.com/photos/1910128/pexels-photo-1910128.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+          id: 4,
+          linkUrl: ''
+        },
+        {
+          title: 'footwear',
+          imageUrl: 'https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           id: 5,
           linkUrl: ''
         }
