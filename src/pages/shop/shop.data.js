@@ -104,7 +104,7 @@ const SHOP_DATA = [
       },
       {
         id: 2,
-        name: 'Highlighter Two-Piece Bikini',
+        name: 'Highlighter Yellow Bikini',
         imageUrl: 'https://images.pexels.com/photos/1855885/pexels-photo-1855885.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 25
       },
