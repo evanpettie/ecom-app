@@ -4,7 +4,7 @@
 ------------------------------
 
 ## Description  
-This is an ecommerce webstore created with React, Redux, stylized with SCSS, utilizing Firebase for backend databasing. Login functionality implemented with email and password registration or OAuth through google and facebook accounts. 
+This is an ecommerce webstore created with React, Redux, stylized with SASS, utilizing Firebase for backend databasing. Login functionality implemented with email and password registration or OAuth through google and facebook accounts. 
 
 ------------------------------  
 
