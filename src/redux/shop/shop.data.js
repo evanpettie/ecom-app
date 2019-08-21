@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  womens: {
     id: 1,
     title: 'Womens',
     routeName: 'womens',
@@ -48,7 +48,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens: {
     id: 2,
     title: 'Mens',
     routeName: 'mens',
@@ -91,7 +91,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  swimwear: {
     id: 3,
     title: 'Swimwear',
     routeName: 'swimwear',
@@ -128,13 +128,13 @@ const SHOP_DATA = [
       },
       {
         id: 6,
-        name: 'Retro Two-Piece Bikini',
+        name: 'Retro Two-Piece',
         imageUrl: 'https://images.pexels.com/photos/261154/pexels-photo-261154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         price: 22
       },
       {
         id: 7,
-        name: 'Sporty Abstract Bikini',
+        name: 'Sporty Abstract-Pattern Bikini',
         imageUrl: 'https://images.pexels.com/photos/1667766/pexels-photo-1667766.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 18
       },
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  outwear: {
     id: 4,
     title: 'Outwear',
     routeName: 'outwear',
@@ -189,7 +189,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  footwear: {
     id: 5,
     title: 'Footwear',
     routeName: 'footwear',
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;

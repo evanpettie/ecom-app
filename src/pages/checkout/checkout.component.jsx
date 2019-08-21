@@ -30,7 +30,10 @@ const CheckoutPage = ({ cartItems, total }) => (
     {cartItems.map(cartItem => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
-    <div className='total'>TOTAL: ${total}</div>
+    <div className='total-before'>Total before tax: ${total}.00</div>
+    <div className='sales-tax'>Estimated tax: ${total * 0.05}</div>
+    <div className='shipping'>Shipping & handling: FREE</div>
+    <div className='total'>ORDER TOTAL: ${total + (total * 0.05)}</div>
   </div>
 );
 
